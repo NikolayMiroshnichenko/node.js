@@ -28,4 +28,6 @@ const invokeAction = async ({ action, id, name, email, phone }) => {
     }
 }
 
+console.log(argv)
+
 invokeAction(argv);
